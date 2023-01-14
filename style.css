@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 80%;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meme-display {
+  height: 40rem;
+  width: 80em;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+.next-btn {
+  margin-bottom: 4rem;
+  padding: 6px 13px;
+  width: 6rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
